@@ -1,0 +1,149 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vignesh .S
+title: Lead Deep Learning Engineer
+email: vignesh.28121997@protonmail.com
+#website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: True
+
+# Social links
+twitter_username: vigneshmj1997
+github_username:  vigneshmj1997
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: vignesh_sathyakummar
+linkedin_username: Vignesh Sathyakumar
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: https://media.licdn.com/dms/image/D5603AQEL-mupXCh8SA/profile-displayphoto-shrink_400_400/0/1691738920194?e=1697673600&v=beta&t=FuKAYgShHvSEkGhpKUKrY3XrKVvLAh-e7g2b0JNYzn0
+about_content: | # this will include new lines to allow paragraphs
+  "Machine learning engineer who is passionate about using technology to understand and interact with human language."
+  
+  
+
+  I am most skilled in 👨‍💻 <mark>AWS</mark> and 💪 <mark>Working out</mark>
+
+#content:
+  # - title: Experiences # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Machine Learning Engineer
+  #       Company: BlitzAI 
+  #       # link_text: Project Website
+  #       # additional_links:
+  #       #   - title:  sproogen/modern-resume-theme
+  #       #     icon: fab fa-github
+  #       #     url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         I spearheaded the development of the groundbreaking BlitzAI framework from inception, which has become an integral part of our company's toolkit for conducting diverse proof-of-concepts. Within BlitzAI, my responsibilities encompassed a wide array of tasks, including development, maintenance, deployment, and cutting-edge research aimed at devising innovative approaches for creating highly accurate and efficient ML and DL models.My expertise within BlitzAI revolved around crafting state-of-the-art solutions for critical tasks such as text classification, token classification, question answering, and invoice parsing. Leveraging the power of various encoder-decoder models, including the renowned BARD and DONUT architectures, I pushed the boundaries of performance to deliver exceptional results.By continuously refining and enhancing BlitzAI, I have consistently delivered advanced capabilities, enabling our company to stay at the forefront of AI-powered solutions.
+  #       description: | # this will include new lines to allow paragraphs
+  #         Computer Vision · Natural Language Processing (NLP) · Hugging Face · PyTorch
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: BlitzAi
+        link: https://www.linkedin.com/company/77737081/
+        # link_text: boringcompany.com
+        sub_title: Lead Deep Learning Engineer
+        caption: May 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+            <mark> Computer Vision </mark> · <mark> Natural Language Processing (NLP) </mark> · <mark> Hugging Face </mark> · <mark> PyTorch </mark>
+        quote: |
+          I spearheaded the development of the groundbreaking BlitzAI framework from inception, which has become an integral part of our company's toolkit for conducting diverse proof-of-concepts. 
+          
+          
+          Within BlitzAI, my responsibilities encompassed a wide array of tasks, including development, maintenance, deployment, and cutting-edge research aimed at devising innovative approaches for creating highly accurate and efficient ML and DL models.
+          
+          
+          My expertise within BlitzAI revolved around crafting state-of-the-art solutions for critical tasks such as text classification, token classification, question answering, and invoice parsing. 
+          
+          Leveraging the power of various encoder-decoder models, including the renowned BARD and DONUT architectures, I pushed the boundaries of performance to deliver exceptional results.By continuously refining and enhancing BlitzAI, I have consistently delivered advanced capabilities, enabling our company to stay at the forefront of AI-powered solutions.
+        
+      - layout: left
+        title: Zoho Corporation
+        link: https://www.zoho.com
+        # link_text: boringcompany.com
+        sub_title: Research Technical Staff Software
+        caption: July 2020 - May 2022
+        quote: >
+          Replicating, experimenting with and deploying the current state of the art machine learning research for NLP in applications Machine Translation and Automatic Speech Recognition.Machine Translation Building a deep learning based Machine translation system. Incorporating ideas from state of the art research papers and original ideas to improve the accuracy and speed of the system. Alignments Finding alingements from Bert and improving the accuracy and inference time of the model
+        description: | # this will include new lines to allow paragraphs
+            <mark> Natural Language Processing (NLP) </mark> · <mark> Transformers </mark> · <mark> Ctranslate </mark> · <mark> Fairseq </mark> 
+
+      - layout: left
+        title: Zoho Corporation
+        link: https://www.zoho.com
+        # link_text: boringcompany.com
+        sub_title: Research Intern
+        caption: July 2019 - July 2020
+        quote: Worked on adding language model to Automatic Speech Recognition system to reduce the word error rate
+        description: <mark> Automatic Speech Recognition (ASR) </mark> · <mark> Tacotron </mark>
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: SASRTA university
+        caption: 2016 - 2020
+        sub_title: B-Tech Computer Science
+        description: | # this will include new lines to allow paragraphs
+            I spent my entire college career exploring my interests, trying my hand at game development and web development before finally finding my passion in AI.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Gymmming
+      - Table Tennis
+      - Guitar
+      - Cricket
+
+      
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
